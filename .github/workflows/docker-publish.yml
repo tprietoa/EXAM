@@ -25,7 +25,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: tu_usuario_dockerhub/myapp_container:latest
+          tags: tcprieto/myapp_container:latest
 
       - name: Build and push mynginx image
         uses: docker/build-push-action@v4
